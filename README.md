@@ -25,5 +25,5 @@ This is a full-stack weather application bulit with Nexx.js, TypeScript and Tail
 ### Prerequisites
 
 - Node.js (v18 or later)
-- npm or yarn
+- npm or yarn  
 

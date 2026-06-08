@@ -12,7 +12,7 @@ if (!fs.existsSync(usersFilePath)) {
 export async function getUsers() {
   const data = fs.readFileSync(usersFilePath, 'utf-8');
   let users = JSON.parse(data);
-  // Migrate old users (without name) – give them a default name from email
+
   let changed = false;
   users = users.map((u: any) => {
     if (!u.name) {
